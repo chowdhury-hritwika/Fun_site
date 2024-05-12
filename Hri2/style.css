@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Madimi+One&display=swap');
+body{
+    background: linear-gradient(rgb(4, 3, 24),rgb(17, 7, 79),rgb(34, 115, 207));
+    color: aliceblue;
+    min-height: 100vh;
+}
+
+.header{
+    background-color: rgb(67, 190, 231);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.navbar{
+    background-color: rgb(64, 210, 255);
+}
+.box{
+    min-width: 20vh;
+}
+
+h1,h2,h4{
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+}
+
+h1{
+    font-weight: 700;
+}
+h4{
+    font-weight: 400;
+}
+h2{
+    font-weight: 300;
+}
+
+th{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.list-unstyled{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+.card:hover{
+    
+    background-color: rgb(216, 177, 253);
+    transition: all 1.2s ease;
+}
+
+
+
+.footer{
+    background-color: rgb(5, 0, 79);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    row-gap: 120px;
+    max-width: 100vw;
+    min-height: 10px;
+    justify-content: center;
+}
+
+
+
+ @media screen and (max-width: 462px) {
+    .footer{
+        font-size: small;
+    }
+}
+ @media screen and (max-width: 377px) {
+    .footer{
+        font-size: 12px;
+    }
+}
+ @media screen and (max-width: 340px) {
+    .footer{
+        font-size: 10px;
+    }
+}
+ @media screen and (max-width: 295px) {
+    .footer{
+        font-size: 8px;
+    }
+}
